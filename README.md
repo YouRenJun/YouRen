@@ -46,7 +46,7 @@
 
 ## 常用技术
 
-**Vue · TypeScript · NestJS · Python · Flutter**
+**Vue · TypeScript · NestJS · Python · Flutter · Java**
 
 也在具体项目里使用 Nuxt、FastAPI、Rust、PostgreSQL、SQLite、Docker 与 GitHub Actions。
 
