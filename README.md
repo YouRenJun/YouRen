@@ -1,57 +1,57 @@
-<p align="center">
-  <img src="./assets/logo.png" width="560" alt="YouRen 的个人名片插画" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="./assets/youren-banner-dark.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/youren-banner-dark.png">
+  <source media="(prefers-color-scheme: light)" type="image/webp" srcset="./assets/youren-banner-light.webp">
+  <img src="./assets/youren-banner-light.png" width="100%" alt="YouRen — 写工具，也写故事。窗边的原创角色正在制作软件；全栈开发、AI 应用与开发工具。">
+</picture>
 
-<h1 align="center">YouRen</h1>
+# YouRen
 
-<p align="center">
-  全栈开发者，主要做 AI 应用、开发工具和有个人风格的 Web 产品。
-</p>
+**写工具，也写故事。**
 
-<p align="center">
-  Vue · TypeScript · NestJS · Python · Flutter
-</p>
+全栈开发者，主要做 AI 应用、开发工具和有个人风格的 Web 作品。
 
-## 关于我
+[博客](https://www.iyouren.top) · [所有仓库](https://github.com/YouRen1320?tab=repositories) · [联系我](mailto:lijunpg@foxmail.com)
 
-我喜欢把想法做成能运行、能使用、能持续维护的作品，也会在具体项目中探索 Rust、
-Docker、PostgreSQL、SQLite 和 AI Agent 工程。
+## 代表作品
 
-这里既有面向真实需求的工具，也有博客、游戏和带一点二次元气质的创意实验。相比堆叠
-技术名词，我更在意完整的使用流程、清楚的边界，以及出问题后是否能够验证和回退。
+**[拾光册](https://github.com/YouRen1320/qzone-archive-web) · 把记录留在自己手里**
 
-## 精选项目
+将仍可读取的 QQ 空间记录整理成可翻阅、可带走的档案。按任务临时处理，支持网页阅读与离线 ZIP 导出。
 
-| 项目 | 做什么 | 当前状态 |
-| --- | --- | --- |
-| [拾光册](https://github.com/YouRen1320/qzone-archive-web) · [在线体验](https://qzone.iyouren.top) | 隐私优先、任务隔离、用完即删的 QQ 空间临时归档工具，可网页翻阅并导出离线 ZIP。 | 可在线体验，持续维护 |
-| [QQ AI Bot](https://github.com/YouRen1320/qqbot) | 基于 NoneBot2 与 NapCat 的 QQ 群聊机器人，包含对话、记忆、多模态能力与使用风控。 | 代码可用，运行说明与 CI 整理中 |
-| [FriendAIX](https://github.com/YouRen1320/friendaix) | 安全配置 Claude Code、Codex CLI 和 OpenCode，支持变更预览、事务备份与恢复。 | 0.3.0 开发版，npm 发布口径待统一 |
-| [Agent Project Kit](https://github.com/YouRen1320/agent-project-kit) | 面向开发者与编码 Agent 的项目指南、决策门、工作流和安全运行手册模板。 | 0.1.0，可用于新项目或渐进接入 |
-| [Blog](https://github.com/YouRen1320/Blog) | 集成 Nuxt 公开站、Vue 后台、NestJS API、Flutter 客户端与 FastAPI AI 工作流的全栈博客。 | 管理员安全与 CI 部署改进审查中 |
-| [4945区：先上号再说](https://github.com/YouRen1320/4945-vn-open) · [在线体验](https://4945.iyouren.top) | 移动端优先的中文 Web 视觉小说，包含分支剧情、关系系统、本地存档与 PWA 离线体验。 | 4.0.0，可在线体验 |
+[体验拾光册](https://qzone.iyouren.top) · [查看源码](https://github.com/YouRen1320/qzone-archive-web)
 
-## 主要技术
+**[FriendAIX](https://github.com/YouRen1320/friendaix) · 少花一些时间配置工具**
 
-- 前端：Vue、Nuxt、TypeScript
-- 服务端：NestJS、Python、FastAPI、Rust
-- 移动端：Flutter、Dart
-- 数据与交付：PostgreSQL、pgvector、SQLite、Docker、GitHub Actions
-- AI 应用：OpenAI 兼容协议、RAG、Agent 编排、本地向量模型
+为 Claude Code、Codex CLI 和 OpenCode 提供交互式配置，支持变更预览、事务备份与恢复。
 
-技术栈会随项目变化；上面的列表只代表这些公开项目里实际使用过的工具，不代表对每项
-技术都作相同程度的熟练度承诺。
+[使用与源码](https://github.com/YouRen1320/friendaix)
 
-## 当前维护
+**[QQ AI Bot](https://github.com/YouRen1320/qqbot) · 让 AI 进入日常交流**
 
-- 完善 Blog 的管理员初始化、测试数据库和按提交部署流程。
-- 补齐 QQ AI Bot 的运行说明、无外部账号测试和首个可验证发布。
-- 核对 FriendAIX 的 npm 版本、安装产物与 GitHub Release 口径。
-- 持续改进拾光册的归档体验、安全边界和发布验证。
+基于 NoneBot2 与 NapCat 的群聊机器人，包含人设、对话记忆和多模态能力，也为群聊使用设置边界。
 
-## 联系与入口
+[部署与源码](https://github.com/YouRen1320/qqbot)
 
-- 项目问题与建议：请在对应仓库提交 Issue。
-- 邮箱：[lijunpg@foxmail.com](mailto:lijunpg@foxmail.com)
+**[4945区：先上号再说](https://github.com/YouRen1320/4945-vn-open) · 把故事做成可以参与的世界**
 
-我主要使用中文维护公开项目，也欢迎清楚、具体、可复现的反馈。
+一个发生在架空游戏社区的中文 Web 视觉小说，包含分支剧情、关系系统、本地存档和 PWA 离线体验。
+
+[进入故事](https://4945.iyouren.top) · [查看源码](https://github.com/YouRen1320/4945-vn-open)
+
+## 继续逛逛
+
+- **[Blog](https://github.com/YouRen1320/Blog)**：从 Nuxt 公开站、Vue 后台与 NestJS API，到 Flutter 客户端和 Python AI 工作流的一套全栈博客。
+- **[Agent Project Kit](https://github.com/YouRen1320/agent-project-kit)**：让开发者与编码 Agent 共用项目事实、协作流程和交付标准的仓库模板。
+
+## 常用技术
+
+**Vue · TypeScript · NestJS · Python · Flutter**
+
+也在具体项目里使用 Nuxt、FastAPI、Rust、PostgreSQL、SQLite、Docker 与 GitHub Actions。
+
+我喜欢把一个具体需求做完整，也愿意为交互、文字和画面多花一点时间。在意作品是否好用，也在意改动能否验证、代码能否继续维护。
+
+---
+
+项目问题与建议，欢迎到对应仓库提交 Issue。其他交流可通过上方邮箱联系；我主要使用中文维护公开项目。
